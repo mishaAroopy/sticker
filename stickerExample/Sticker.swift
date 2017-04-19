@@ -173,7 +173,7 @@ class Sticker: UIImageView, UIGestureRecognizerDelegate {
     }
     func generateSizedButtonImage( _ width: CGFloat, height: CGFloat ) -> UIImage{
         UIGraphicsBeginImageContextWithOptions(CGSize( width: width, height: height), false, 0)
-        let closeImage = UIImage(named: "redCross.png" )
+        let closeImage = UIImage(named: "redCross" )
         closeImage?.draw(in: CGRect(x: 0, y: 0, width: width, height: height))
         let sizedImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()

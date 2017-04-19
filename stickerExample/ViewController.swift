@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+      
     @IBOutlet var stickerView: UIImageView!
     var stickerArray: [Sticker] = []
     
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func addSticker(_ sender: Any) {
-        let mySticker1 = Sticker(imageFileName: "stickerThankYou2Blue.png", stickerInitSize: 200, closeButtonSize: 50 )
+        let mySticker1 = Sticker(imageFileName: "stickerThankYou2Blue", stickerInitSize: 200, closeButtonSize: 50 )
         stickerArray.append(mySticker1)
         stickerView.addSubview(mySticker1)
     }
