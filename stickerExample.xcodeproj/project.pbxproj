@@ -12,6 +12,10 @@
 		FD0C9A491EA6EFEA00901135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C9A471EA6EFEA00901135 /* Main.storyboard */; };
 		FD0C9A4B1EA6EFEA00901135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0C9A4A1EA6EFEA00901135 /* Assets.xcassets */; };
 		FD0C9A4E1EA6EFEA00901135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C9A4C1EA6EFEA00901135 /* LaunchScreen.storyboard */; };
+		FD0C9A561EA6F08300901135 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C9A551EA6F08300901135 /* Sticker.swift */; };
+		FD0C9A5A1EA703AE00901135 /* stickerThankYou2Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C9A591EA703AE00901135 /* stickerThankYou2Blue.png */; };
+		FD0C9A5C1EA7048900901135 /* redCross.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C9A5B1EA7048900901135 /* redCross.png */; };
+		FD0C9A601EA70ED200901135 /* simpleShape1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD0C9A5F1EA70ED200901135 /* simpleShape1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FD0C9A4A1EA6EFEA00901135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0C9A4D1EA6EFEA00901135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0C9A4F1EA6EFEA00901135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C9A551EA6F08300901135 /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		FD0C9A591EA703AE00901135 /* stickerThankYou2Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stickerThankYou2Blue.png; path = ../../../../Downloads/loveyou/stickerThankYou2Blue.png; sourceTree = "<group>"; };
+		FD0C9A5B1EA7048900901135 /* redCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redCross.png; path = ../../../../Downloads/redCross.png; sourceTree = "<group>"; };
+		FD0C9A5F1EA70ED200901135 /* simpleShape1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simpleShape1.png; path = ../../../../Downloads/simpleShape1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				FD0C9A431EA6EFEA00901135 /* AppDelegate.swift */,
 				FD0C9A451EA6EFEA00901135 /* ViewController.swift */,
+				FD0C9A5F1EA70ED200901135 /* simpleShape1.png */,
+				FD0C9A591EA703AE00901135 /* stickerThankYou2Blue.png */,
+				FD0C9A551EA6F08300901135 /* Sticker.swift */,
+				FD0C9A5B1EA7048900901135 /* redCross.png */,
 				FD0C9A471EA6EFEA00901135 /* Main.storyboard */,
 				FD0C9A4A1EA6EFEA00901135 /* Assets.xcassets */,
 				FD0C9A4C1EA6EFEA00901135 /* LaunchScreen.storyboard */,
@@ -124,8 +136,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0C9A601EA70ED200901135 /* simpleShape1.png in Resources */,
 				FD0C9A4E1EA6EFEA00901135 /* LaunchScreen.storyboard in Resources */,
+				FD0C9A5C1EA7048900901135 /* redCross.png in Resources */,
 				FD0C9A4B1EA6EFEA00901135 /* Assets.xcassets in Resources */,
+				FD0C9A5A1EA703AE00901135 /* stickerThankYou2Blue.png in Resources */,
 				FD0C9A491EA6EFEA00901135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0C9A461EA6EFEA00901135 /* ViewController.swift in Sources */,
+				FD0C9A561EA6F08300901135 /* Sticker.swift in Sources */,
 				FD0C9A441EA6EFEA00901135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
