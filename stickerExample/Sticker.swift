@@ -4,7 +4,6 @@
 //
 //  Created by AINSLIE YUEN on 4/19/17.
 //  Copyright © 2017 Aroopy. All rights reserved.
-
 // Usage:
 // To create a sticker:
 // let mySticker1 = Sticker(imageFileName: "stickerThankYou2Blue.png", stickerInitSize: 200, closeButtonSize: 50)
